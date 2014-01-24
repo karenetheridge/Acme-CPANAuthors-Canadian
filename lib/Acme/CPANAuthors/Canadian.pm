@@ -3,7 +3,7 @@ package Acme::CPANAuthors::Canadian;
 use warnings;
 use strict;
 
-our $VERSION = '0.0105';
+our $VERSION = '0.0106';
 
 use Acme::CPANAuthors::Register (
     ZOFFIX => 'Zoffix Znet',
