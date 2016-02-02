@@ -1,1 +1,6 @@
-Acme-CPANAuthors-Canadian-*
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Acme-CPANAuthors-Canadian-*/
+/Acme-CPANAuthors-Canadian-*.tar.gz
