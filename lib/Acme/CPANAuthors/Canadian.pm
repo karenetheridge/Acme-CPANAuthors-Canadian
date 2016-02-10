@@ -11,6 +11,7 @@ use Acme::CPANAuthors::Register (
     ETHER  => 'Karen Etheridge',
     ROMANF => 'Roman F.',
     GTERMARS    => 'Graham TerMarsch',
+    OALDERS => 'Olaf Alders',
 
     # the following four authors have been submitted by GTERMARS
     STASH   => 'Jeremy Stashewsky',
