@@ -12,6 +12,7 @@ use Acme::CPANAuthors::Register (
     ROMANF => 'Roman F.',
     GTERMARS    => 'Graham TerMarsch',
     OALDERS => 'Olaf Alders',
+    TIMLEGGE => 'Timothy Legge',
 
     # the following four authors have been submitted by GTERMARS
     STASH   => 'Jeremy Stashewsky',
@@ -57,6 +58,7 @@ We are Canadian CPAN authors:
     Luke 'LUKEC' Closs
     Mike 'MDMS' Smith
     Roman 'ROMANF' F.
+    Timothy 'TIMLEGGE' Legge
     Zoffix 'ZOFFIX' Znet
 
 =head1 MAINTENANCE

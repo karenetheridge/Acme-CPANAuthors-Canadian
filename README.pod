@@ -41,6 +41,7 @@ We are Canadian CPAN authors:
     Luke 'LUKEC' Closs
     Mike 'MDMS' Smith
     Roman 'ROMANF' F.
+    Timothy 'TIMLEGGE' Legge
     Zoffix 'ZOFFIX' Znet
 
 =head1 MAINTENANCE
