@@ -8,7 +8,7 @@ Acme::CPANAuthors::Canadian - We are Canadian CPAN authors
 
 =head1 VERSION
 
-version 0.0107
+version 0.0108
 
 =head1 DESCRIPTION
 
@@ -34,37 +34,81 @@ See documentation for L<Acme::CPANAuthors> for more details.
 
 We are Canadian CPAN authors:
 
-    Graham 'GTERMARS' TerMarsch
-    Jeremy 'STASH' Stashewsky
-    Karen 'ETHER' Etheridge
-    Kevin 'KEVINJ' Jones
-    Luke 'LUKEC' Closs
-    Mike 'MDMS' Smith
-    Roman 'ROMANF' F.
-    Timothy 'TIMLEGGE' Legge
-    Zoffix 'ZOFFIX' Znet
+=over 4
+
+=item *
+
+Zoffix Znet
+
+=item *
+
+Karen Etheridge
+
+=item *
+
+Roman F.
+
+=item *
+
+Graham TerMarsch
+
+=item *
+
+Olaf Alders
+
+=item *
+
+Timothy Legge
+
+=item *
+
+Jeremy Stashewsky
+
+=item *
+
+Luke Closs
+
+=item *
+
+Kevin Jones
+
+=item *
+
+Mike Smith
+
+=back
 
 =head1 MAINTENANCE
 
 If you are a Canadian CPAN author not listed here, please send me your ID/name
-via email or RT so we can always keep this module up to date.
+via RT or pull request so we can always keep this module up to date.
 
 =head1 SUPPORT
 
 Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Canadian>
 (or L<bug-Acme-CPANAuthors-Canadian@rt.cpan.org|mailto:bug-Acme-CPANAuthors-Canadian@rt.cpan.org>).
 
-I am also usually active on irc, as 'ether' at C<irc.perl.org>.
+I am also usually active on irc, as 'ether' at C<irc.perl.org> and C<irc.libera.chat>.
 
 =head1 AUTHOR
 
 Zoffix Znet <cpan@zoffix.com>
 
-=head1 CONTRIBUTOR
+=head1 CONTRIBUTORS
 
-=for stopwords Karen Etheridge
+=for stopwords Karen Etheridge Timothy Legge
+
+=over 4
+
+=item *
 
 Karen Etheridge <ether@cpan.org>
+
+=item *
+
+Timothy Legge <timlegge@gmail.com>
+
+=back
 
 =head1 COPYRIGHT AND LICENCE
 
