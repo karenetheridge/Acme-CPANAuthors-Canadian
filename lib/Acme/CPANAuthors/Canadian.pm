@@ -7,22 +7,11 @@ use strict;
 our $VERSION = '0.0108';
 
 use Acme::CPANAuthors::Register (
-    ZOFFIX => 'Zoffix Znet',
-    ETHER  => 'Karen Etheridge',
-    ROMANF => 'Roman F.',
-    GTERMARS    => 'Graham TerMarsch',
-    OALDERS => 'Olaf Alders',
-    TIMLEGGE => 'Timothy Legge',
-
-    # the following four authors have been submitted by GTERMARS
-    STASH   => 'Jeremy Stashewsky',
-    LUKEC   => 'Luke Closs',
-    KEVINJ  => 'Kevin Jones',
-    MDMS    => 'Mike Smith',
-);
+{{
+  join '', map +('  '.join(' => \'', +(split /\s/, $_, 2))."',\n"), grep !/^#/, split /\R/, $DATA
+}});
 
 1;
-__END__
 
 =pod
 =head1 SYNOPSIS
@@ -51,15 +40,8 @@ the C<Acme::CPANAuthors> module.
 
 We are Canadian CPAN authors:
 
-    Graham 'GTERMARS' TerMarsch
-    Jeremy 'STASH' Stashewsky
-    Karen 'ETHER' Etheridge
-    Kevin 'KEVINJ' Jones
-    Luke 'LUKEC' Closs
-    Mike 'MDMS' Smith
-    Roman 'ROMANF' F.
-    Timothy 'TIMLEGGE' Legge
-    Zoffix 'ZOFFIX' Znet
+=for :list
+{{ join "\n", map +('* '.+(split /\s/, $_, 2)[1]), grep !/^#/, split /\R/, $DATA }}
 
 =head1 MAINTENANCE
 
@@ -67,3 +49,15 @@ If you are a Canadian CPAN author not listed here, please send me your ID/name
 via email or RT so we can always keep this module up to date.
 
 =cut
+__DATA__
+ZOFFIX Zoffix Znet
+ETHER Karen Etheridge
+ROMANF Roman F.
+GTERMARS Graham TerMarsch
+OALDERS Olaf Alders
+TIMLEGGE Timothy Legge
+# the following four authors have been submitted by GTERMARS
+STASH Jeremy Stashewsky
+LUKEC Luke Closs
+KEVINJ Kevin Jones
+MDMS Mike Smith
