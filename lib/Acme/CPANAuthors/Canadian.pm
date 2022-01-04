@@ -46,7 +46,7 @@ We are Canadian CPAN authors:
 =head1 MAINTENANCE
 
 If you are a Canadian CPAN author not listed here, please send me your ID/name
-via email or RT so we can always keep this module up to date.
+via RT or pull request so we can always keep this module up to date.
 
 =cut
 __DATA__
